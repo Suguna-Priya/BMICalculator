@@ -109,3 +109,13 @@ button:hover{
   font-weight: 600;
 }
 
+.footer{
+  position: relative;
+  background-color: aqua;
+}
+
+.footer > p{
+  position: absolute;
+  bottom: 1;
+}
+

@@ -74,8 +74,13 @@ const calculateBmi=()=>{
             <p>Your BMI is : {bmi}</p>
             <p>Status: {status}</p>
           </div>}
+
+          <div className='footer'>
+          <p>Designed by Suguna Priya</p>
+        </div>
         </div>
       </div>
+      
     </>
   )
 }
