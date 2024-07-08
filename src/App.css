@@ -23,6 +23,7 @@ body{
   display: flex;
   background-color: #fff;
   padding: 25px;
+  position: relative;
 }
 
 .bmi-img{
@@ -110,12 +111,10 @@ button:hover{
 }
 
 .footer{
-  position: relative;
-  background-color: aqua;
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  font-size: 12px;
 }
 
-.footer > p{
-  position: absolute;
-  bottom: 1;
-}
 
